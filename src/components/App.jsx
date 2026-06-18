@@ -1,3 +1,10 @@
+import { ThemeToggle } from './ThemeToggle';
+
 export function App() {
-  return <div>Hello ACME</div>;
+  return (
+    <div>
+      <ThemeToggle />
+      Hello ACME
+    </div>
+  );
 }
